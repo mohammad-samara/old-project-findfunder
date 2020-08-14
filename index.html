@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Funder</title>
+    <link rel="shortcut icon" href="img/small-logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"
+              >fundraise for
+              <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-content">
+              <a href="catagory-page.html" id="Education">Education</a>
+              <a href="catagory-page.html" id="Medical">Medical</a>
+              <a href="catagory-page.html" id="non-profit">non-profit</a>
+            </div>
+          </li>
+          <li><a href="start-project.html">start a project</a></li>
+          <li><a href="about-us.html">about us</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a href="creatWallet.html">
+          <i class="fas fa-wallet"></i>
+          wallet</a
+        >
+      </div>
+    </header>
+    <main id="home-main">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="over"></div>
+          <img
+            src="https://images.pexels.com/photos/3985214/pexels-photo-3985214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            style="width: 100%;"
+          />
+          <div class="text">
+            <h2>Fundraising for the people and causes you care about</h2>
+            <p>
+              If you feel that your project can spread goodness and happiness
+            </p>
+            <button class="start">Start a Project</button>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="over"></div>
+          <img
+            src="https://images.pexels.com/photos/3279196/pexels-photo-3279196.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            style="width: 100%;"
+          />
+          <div class="text">
+            <h2>Fundraising for the people and causes you care about</h2>
+            <p>
+              If you feel that your project can spread goodness and happiness
+            </p>
+            <button class="start">Start a Project</button>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="over"></div>
+          <img
+            src="https://images.pexels.com/photos/4177882/pexels-photo-4177882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            style="width: 100%;"
+          />
+          <div class="text">
+            <h2>Fundraising for the people and causes you care about</h2>
+            <p>
+              If you feel that your project can spread goodness and happiness
+            </p>
+            <button class="start">Start a Project</button>
+          </div>
+        </div>
+      </div>
+      <section id="latest-project">
+        <h1 class="card-title">Latest Projects</h1>
+        <div class="title-border">
+          <span class="line-under"></span>
+          <span class="circle-under"></span>
+          <span class="line-under"></span>
+        </div>
+        <div id="section2"></div>
+      </section>
+
+      <section id="stories">
+        <h1 class="card-title">Stories</h1>
+        <div class="title-border">
+          <span class="line-under"></span>
+          <span class="circle-under"></span>
+          <span class="line-under"></span>
+        </div>
+        <div class="mySlides2 fade">
+          <div id="section3">
+            <a onclick="plusDivs(-1)">&#10094;</a>
+            <div>
+              <h4>Meet Hussein</h4>
+              <p>
+                "My name is Hussein Akoush and I am from a city in Northern
+                Syria called Atarib . Before the Syrian revolution began, I was
+                a hardworking student. I used to be top of my class but I was
+                obliged to drop out of the School. My name is Hussein Akoush and
+                I am from a city in Northern Syria called Atarib ."
+              </p>
+              <p>Hussein raised $70k to help kids earn books with exercise</p>
+            </div>
+            <img
+              src="https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="image"
+            />
+
+            <a onclick="plusDivs(1)">&#10095;</a>
+          </div>
+        </div>
+        <div class="mySlides2 fade">
+          <div id="section3">
+            <a onclick="plusDivs(-1)">&#10094;</a>
+            <div>
+              <h4>Meet Maran</h4>
+              <p>
+                "This is Maran Maayah, the founder and CEO of Al Hadaf. I have
+                never sent friends and family anything through GoFundMe before,
+                but we have found ourselves in a unique situation. A few of our
+                donors have been forced to channel their funds elsewhere,
+                leaving Al Hadaf--a home for thousands of Iraqi refugees and
+                Jordanian."
+              </p>
+              <p>Maran raised $80k to help kids earn books with exercise</p>
+            </div>
+            <img
+              src="https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="image"
+            />
+
+            <a id="plus" onclick="plusDivs(1)">&#10095;</a>
+          </div>
+        </div>
+        <div class="mySlides2 fade">
+          <div id="section3">
+            <a id="min" onclick="plusDivs(-1)">&#10094;</a>
+            <div>
+              <h4>Meet Eva</h4>
+              <p>
+                "Welcome to ForEva Strong, A donation page dedicated for Eva
+                Batista, our daughter, who was born on August 11th 2019 and
+                diagnosed with Spinal Muscular Atrophy (SMA) type one on
+                Wednesday, October 2nd, 2019. SMA is a nightmare, it is a
+                disease that robs people of physical strength."
+              </p>
+              <p>Maran raised $15k to help kids earn books with exercise</p>
+            </div>
+            <img
+              src="https://images.pexels.com/photos/3279196/pexels-photo-3279196.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt="image"
+            />
+
+            <a onclick="plusDivs(1)">&#10095;</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Find Funder</h2>
+      <p>support the good</p>
+      <p>© 2020 Find Funder Inc. All rights reserved. Privacy Policy</p>
+      <div>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </footer>
+    <script type="module" src="js/app.js"></script>
+    <script  src="js/homepage.js"></script>
+  </body>
+</html>

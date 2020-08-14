@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start project</title>
+    <link rel="shortcut icon" href="img/small-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo" />
+        </a>
+      
+        <nav>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn"
+                >fundraise for
+                <i class="fas fa-chevron-down"></i>
+              </a>
+              <div class="dropdown-content">
+                <a href="catagory-page.html" id="Education">Education</a>
+                <a href="catagory-page.html" id="Medical">Medical</a>
+                <a href="catagory-page.html"id="non-profit">non-profit</a>
+              </div>
+            </li>
+            <li><a href="#">start a project</a></li>
+            <li><a href="about-us.html">about us</a></li>
+          </ul>
+        </nav>
+        <div>
+          <a href="creatWallet.html">
+            <i class="fas fa-wallet"></i>
+            wallet</a
+          >
+        </div>
+      </header>
+    <main id='start-project-main' class="main-section">
+      <article class="page-card">
+        <h1 class="card-title">Start a project</h1>
+        <div class="title-border">
+          <span class="line-under"></span>
+          <span class="circle-under"></span>
+          <span class="line-under"></span>
+        </div>
+        <div class="form-container">
+            <form id="project-form">
+            <section id="section1">
+              <div>
+                <label for="Title">Title</label><br>
+                <input type="text" id="Title" required><br>
+              </div>
+                    <div>
+                      <label for="Image">Image</label><br>
+                      <input type="text" id="Image" required><br>
+                    </div>
+                     
+                    <div>
+                      <label for="Goal">Goal</label><br>
+                      <input type="number" id="Goal" required><br>
+                    </div>
+                    
+                    <div>
+                      <label for="Name">Name</label><br>
+                      <input type="text" id="Name" required><br>
+                    </div>
+                    
+                    <div>
+                      <label for="Location">Location</label><br>
+                      <input type="text" id="Location" required><br>
+                    </div>
+                    
+                    <div>
+                      <label for="Catagory">Catagory</label>
+                      <select name="" id="Catagory"><br>
+                         <option value="Medical">Medical</option>
+                         <option value="Education">Education</option>
+                         <option value="Nonprofit">Nonprofit</option>
+                      </select>
+                    </div>
+                    
+                </section>
+                <section id="section2">
+                  <div>
+                    <label for="Story">Story</label> <br>
+                    <textarea name="Story" id="Story" cols="30" rows="30"></textarea><br>
+                  </div>
+                    <input class="hvr-ripple-in" type="submit" id="submitProject" value="Submit">
+                </section>
+            </form>
+          </article>
+        </div>
+
+        
+    </main>
+    <footer>
+      <h2>Find Funder</h2>
+      <p>support the good</p>
+      <p>© 2020 Find Funder Inc. All rights reserved. Privacy Policy</p>
+      <div>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </footer>
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/start-project.js"></script>
+</body>
+</html>

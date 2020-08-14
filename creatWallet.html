@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wallet</title>
+    <link rel="shortcut icon" href="img/small-logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/creatWallet.css">
+    <link rel="stylesheet" href="css/module.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo" />
+        </a>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">fundraise for
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="catagory-page.html" id="Education">Education</a>
+                        <a href="catagory-page.html" id="Medical">Medical</a>
+                        <a href="catagory-page.html" id="non-profit">non-profit</a>
+                    </div>
+                </li>
+                <li><a href="start-project.html">start a project</a></li>
+                <li><a href="#">about us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="creatWallet.html">
+                <i class="fas fa-wallet"></i>
+                wallet</a>
+        </div>
+    </header>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2> <i class="fas fa-exclamation-circle"></i> Alert</h2>
+          </div>
+          <div class="modal-body">
+            <p>You don't have a wallet</p>
+            <p>please create a new wallet</p>
+            <!-- <a href="creatWallet.html" class="redirectToWalletButton"><button id="myBtn">Open Wallet</button></a>  redirect to wallet page -->
+          </div>
+          <!-- <div class="modal-footer">
+          
+          </div> -->
+        </div>
+      
+      </div>
+
+
+      <!-- The Modal2 -->
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2> <i class="fas fa-exclamation-circle"></i> Alert</h2>
+          </div>
+          <div class="modal-body">
+            <p>You have successfully created a wallet</p>
+            <p>login to enter your new wallet</p>
+            <!-- <a href="creatWallet.html" class="redirectToWalletButton"><button id="myBtn">Open Wallet</button></a>  redirect to wallet page -->
+          </div>
+          <!-- <div class="modal-footer">
+          
+          </div> -->
+        </div>
+      
+      </div>
+
+    <main id="mainfinal">
+
+        <div id='titlewallet'>
+            <h1 class="card-title">Creat Wallet</h1>
+            <div class="title-border">
+                <span class="line-under"></span>
+                <span class="circle-under"></span>
+                <span class="line-under"></span>
+            </div>
+        </div>
+        <div class="flex">
+
+            <div id="creatdiv">
+                <form id="formCreat">
+                    <fieldset>
+                        <input id="creat" type="submit" value="Creat Wallet">
+                    </fieldset>
+                </form>
+
+                <form id="formUser">
+                </form>
+            </div>
+
+
+            <form id="login">
+                <fieldset>
+                    <input id="logins" type="submit" value="Log In">
+                    <input id="loginName" type="text" placeholder="User Name">
+                </fieldset>
+            </form>
+        </div>
+
+
+    </main>
+    <footer>
+        <h2>Find Funder</h2>
+        <p>support the good</p>
+        <p>© 2020 Find Funder Inc. All rights reserved. Privacy Policy</p>
+        <div>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </footer>
+        <script type="module" src="js/app.js"></script>
+        <script type="module" src="js/creatWallet.js"></script>
+
+</body>
+
+</html>

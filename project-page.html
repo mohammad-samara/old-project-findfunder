@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Funder</title>
+    <link rel="shortcut icon" href="img/small-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/projectPage.css">
+    <link rel="stylesheet" href="css/module.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo" />
+        </a>
+        <nav>
+   
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">fundraise for
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="catagory-page.html" id="Education">Education</a>
+                        <a href="catagory-page.html" id ="Medical">Medical</a>
+                        <a href="catagory-page.html" id="non-profit">non-profit</a>
+                    </div>
+                </li>
+                <li><a href="start-project.html">start a project</a></li>
+                <li><a href="about-us.html">about us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="creatWallet.html">
+                <i class="fas fa-wallet"></i>
+                wallet</a>
+        </div>
+    </header>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2> <i class="fas fa-exclamation-circle"></i> Alert</h2>
+      </div>
+      <div class="modal-body">
+        <p>You don't have the specified amount of money in your wallet</p>
+        <p>You may add money to your wallet or reduce the amount of donation</p>
+        <a href="creatWallet.html" class="redirectToWalletButton"><button id="myBtn">Open Wallet</button></a>  <!-- redirect to wallet page -->
+      </div>
+      <!-- <div class="modal-footer">
+      
+      </div> -->
+    </div>
+  
+  </div>
+
+    <main id='project-page-main'>
+        <h2 id="title">  
+        </h2>
+        <div class='img-info'>
+            <div id='projectImg'>
+                <img id="Img"
+                    src=''>
+            </div>
+            <div id="information">
+                <div id='bkcolor1'></div>
+                <div id='donatediv'>
+                   <span>$</span> <h4 id='donate'></h4>
+                   <i class="fas fa-bullseye"></i>
+                
+                </div>
+                <div id='raisedDiv'>
+                    <span>Donation amount $</span> <p id='raised'></p>
+                    <i class="far fa-money-bill-alt"></i>
+                </div>
+                <div id='bkcolor2'></div>
+                <div id='iconName'>
+                    <i class="fas fa-user"></i>
+                    <p id='name'></p>
+                </div>
+                <div id='iconLocation'>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p id='location'></p>
+                </div>
+                <form id="form">
+                    <legend>The amount of donation </legend>
+                    <fieldset id="fieldset"></fieldset>
+                    <input id="donateValue" type="number">
+                    <br>
+                    <input id='submit' type="submit" value='DONATE'>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+        <div class='para'>
+            <p id="story">
+           
+
+            </p>
+        </div>
+    </main>
+    <footer>
+        <h2>Find Funder</h2>
+        <p>support the good</p>
+        <p>© 2020 Find Funder Inc. All rights reserved. Privacy Policy</p>
+        <div>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </footer>
+        <script type="module" src="js/app.js"></script>
+        <script src="js/project-page.js"></script>
+
+
+</body>
+
+</html>

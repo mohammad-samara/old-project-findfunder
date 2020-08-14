@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>wallet</title>
+  <link rel="shortcut icon" href="img/small-logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/module.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="img/logo.png" alt="logo" />
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">fundraise for
+            <i class="fas fa-chevron-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="catagory-page.html" id="Education">Education</a>
+            <a href="catagory-page.html" id="Medical">Medical</a>
+            <a href="catagory-page.html" id="non-profit">non-profit</a>
+          </div>
+        </li>
+        <li><a href="start-project.html">start a project</a></li>
+        <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </nav>
+    <div>
+      <a href="creatWallet.html">
+        <i class="fas fa-wallet"></i>
+        wallet</a>
+    </div>
+  </header>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2> <i class="fas fa-exclamation-circle"></i> Alert</h2>
+      </div>
+      <div class="modal-body">
+        <p>You don't have the specified amount of money in your wallet</p>
+      </div>
+      <!-- <div class="modal-footer">
+        <h3>thanks for understanding</h3>
+      </div> -->
+    </div>
+
+  </div>
+  <main  id='wallet-main'>
+    <section class="imageBackground">
+    <div id='titlewallet'>
+      <h1 class="card-title">Wallet</h1>
+        <div class="title-border">
+          <span class="line-under"></span>
+          <span class="circle-under"></span>
+          <span class="line-under"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div id="amountBottun">
+        <div id="first">
+          <h3>Transactions tool</h3>
+          <input id="deposit" type="number" /><br>
+          <button id="btn1" type="button">Deposit</button>
+        </div>
+
+        <div id="second">
+          <!-- <h3>The amount</h3> -->
+          <input id="withdraw" type="number" />
+          <br>
+          <button id="btn2" type="button">Withdraw</button>
+        </div>
+      </div>
+
+
+      <div id="in_my_wallet">
+        <div id="inputWallet">
+          <p id="walletValue">$</p>
+          <p id="in_wallet">In My Wallet</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <div class="chart">
+      <h1 class="card-title">Donation Chart</h1>
+        <div class="title-border">
+          <span class="line-under"></span>
+          <span class="circle-under"></span>
+          <span class="line-under"></span>
+        </div>
+      <br>
+      <br>
+      <br>
+      <canvas id="myChart" width="700" height="400"></canvas>
+      <br>
+      <br>
+    </div>
+  </main>
+  <footer>
+    <h2>Find Funder</h2>
+    <p>support the good</p>
+    <p>© 2020 Find Funder Inc. All rights reserved. Privacy Policy</p>
+    <div>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+  <script src="js/wallet.js"></script>
+</body>
+
+</html>

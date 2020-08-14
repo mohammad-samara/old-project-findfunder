@@ -1,0 +1,112 @@
+#mainfinal{
+    background-image: linear-gradient(
+      to left,
+      rgba(67, 206, 162, 0.9),
+      rgba(24, 90, 157, 0.9)
+    ),
+    url("../img/help.jpg");
+
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+#titlewallet .card-title {
+    color: #fff;
+}
+  
+#titlewallet .line-under {
+    background-color: #fff;
+}
+#titlewallet .circle-under {
+    border-color: #fff;
+}
+
+.flex {
+   /* display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 60px;
+    width: 70%;
+    margin: 50px auto;*/
+
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 60px;
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  #creatdiv , #login{
+   /* width: 100%;*/
+   background-color: #fff;
+   border-radius: 5px;
+   padding: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+#formCreat , #formUser {
+  
+    margin-bottom: 10px;
+}
+
+
+  #creat,
+  #logins,
+  #submitCreat {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 15px 15px;
+    background: rgb(24, 90, 157);
+    background: linear-gradient(
+      90deg,
+      rgba(24, 90, 157, 1) 0%,
+      rgba(67, 206, 162, 1) 100%
+    );
+  }
+  
+  #logins{
+    margin-bottom: 10px;  
+  }
+  #creat:hover,
+  #logins:hover,
+  #submitCreat:hover {
+    background: rgb(24, 90, 157);
+    background: linear-gradient(
+      45deg,
+      rgba(24, 90, 157, 1) 0%,
+      rgba(67, 206, 162, 1) 100%
+    );
+    transition-duration: 360ms;;
+  }
+  #creat:hover,
+  #logins:focus,
+  #submitCreat:focus {
+  outline: 0 none;
+}
+
+  #inputName,
+  #loginName {
+  width: 70%;
+  margin: 0 auto;
+  border: solid #43cea2 1px;
+  border-radius: 5px;
+  background-color: #f7f7ff;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  color: #646363;
+  display: block;
+  }
+  #inputName:focus,
+  #loginName:focus {
+    box-shadow: 0 0 5px #43cea2;
+    outline: 0 none;
+  }
